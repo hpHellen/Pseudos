@@ -1,0 +1,157 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    background-color: #303030;
+}
+
+nav ul li{
+    margin: 0 5%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+nav ul li a:active{
+    background-color: #535353;
+}
+
+nav ul li a:visited{
+    background-color: #535353;
+}
+
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#home{
+    background-image: url(https://cdn.pixabay.com/photo/2024/06/21/11/15/ai-generated-8844184_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f4f4f4;
+    height: 100vh;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+h1{
+    font-size: 4em;
+    line-height: 1.1;
+    margin-right: 75%;
+    padding-bottom: 5%;
+    width: 10%;
+    text-align: left;
+    color: #f4f4f4;
+}
+
+h1::before{
+    content: "Tema: ";
+    color:#dbdbdb;
+}
+
+p{
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 550px;
+    height: 400px;
+    object-fit: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.card .text{
+    text-align: left;
+    max-width: 600px;
+    padding-left: 1%;
+}
+
+p::selection{
+    background-color: rgb(147, 147, 255);
+    color: aqua;
+    font-family: cursive;
+}
+
+.card .text h2{
+    text-align: center;
+    font-size: 3em; 
+    margin-bottom: 20px; 
+    color: #000000; 
+}
+
+#alta{
+    background-color: #dacccc;
+}
+
+#media{
+    background-color: #e0e0e0;
+}
+
+#baixa{
+    background-color: #dacccc;
+}
+
+.parallax1{
+    background-image: url(https://img.freepik.com/fotos-gratis/visao-do-homem-sobre-o-manejo-do-dinheiro-e-dos-fundos-para-a-riqueza-e-a-prosperidade_23-2151660791.jpg?t=st=1729879377~exp=1729882977~hmac=6a2456ab48cacd3d655ba368555e94eb38cc29ddccb5885f10eae841c5c692e9&w=900);
+}
+
+.parallax1{
+    height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media (max-width:768px){
+    
+}
+
+
+
